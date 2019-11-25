@@ -9,12 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet private var arrowView: ArrowView!
+    
+    @IBAction private func flipArrow(_ sender: Any) {
+        UIView.animate(withDuration: 0.3) {
+            self.arrowView.direction.flip()
+        }
     }
-
-
 }
-

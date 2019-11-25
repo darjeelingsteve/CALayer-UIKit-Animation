@@ -22,12 +22,10 @@ import UIKit
             if let backgroundColourAnimation = action(for: layer, forKey: "backgroundColor") as? CABasicAnimation {
                 let pathAnimation = backgroundColourAnimation.copy(forKeyPath: "path")
                 pathAnimation.fromValue = arrowShapeLayer.presentation()?.path
-                pathAnimation.duration = backgroundColourAnimation.duration
                 arrowShapeLayer.add(pathAnimation, forKey: "pathAnimation")
                 
                 let strokeColourAnimation = backgroundColourAnimation.copy(forKeyPath: "strokeColor")
                 strokeColourAnimation.fromValue = arrowShapeLayer.presentation()?.strokeColor
-                strokeColourAnimation.duration = backgroundColourAnimation.duration
                 arrowShapeLayer.add(strokeColourAnimation, forKey: "strokeColourAnimation")
             }
             arrowShapeLayer.path = direction.arrowPath(in: bounds).cgPath

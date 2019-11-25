@@ -13,6 +13,7 @@
 		4805024D23899DE3003C7C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4805024B23899DE3003C7C16 /* Main.storyboard */; };
 		4805024F23899DE6003C7C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4805024E23899DE6003C7C16 /* Assets.xcassets */; };
 		4805025223899DE6003C7C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4805025023899DE6003C7C16 /* LaunchScreen.storyboard */; };
+		4805025A23899EAB003C7C16 /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4805025923899EAB003C7C16 /* ArrowView.swift */; };
 		4805025C2389A903003C7C16 /* CABasicAnimation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4805025B2389A903003C7C16 /* CABasicAnimation+Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		4805024E23899DE6003C7C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4805025123899DE6003C7C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4805025323899DE6003C7C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4805025923899EAB003C7C16 /* ArrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowView.swift; sourceTree = "<group>"; };
 		4805025B2389A903003C7C16 /* CABasicAnimation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CABasicAnimation+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				4805024523899DE3003C7C16 /* AppDelegate.swift */,
+				4805025923899EAB003C7C16 /* ArrowView.swift */,
 				4805025B2389A903003C7C16 /* CABasicAnimation+Extensions.swift */,
 				4805024723899DE3003C7C16 /* SceneDelegate.swift */,
 				4805024923899DE3003C7C16 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4805025A23899EAB003C7C16 /* ArrowView.swift in Sources */,
 				4805025C2389A903003C7C16 /* CABasicAnimation+Extensions.swift in Sources */,
 				4805024A23899DE3003C7C16 /* ViewController.swift in Sources */,
 				4805024623899DE3003C7C16 /* AppDelegate.swift in Sources */,
